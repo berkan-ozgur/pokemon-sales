@@ -1,0 +1,29 @@
+.footer{
+    background-color: rgb(44, 44, 44);
+    height: 8rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
+    .Copyright{
+        z-index: 100;
+        color:white;
+        position: absolute;
+        right: 20px;
+        bottom: 0px;
+        font-size: 12px;
+    }
+    .footerImage{
+        width: 100%;
+        opacity: 10%;
+    }
+    .aboutUs{
+        z-index: 100;
+        color:white;
+        position: absolute;
+        font-size: 15px;
+        margin-left: 100px;
+        margin-top: 45px;
+    }
+}
