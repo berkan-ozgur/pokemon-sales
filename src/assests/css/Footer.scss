@@ -1,11 +1,11 @@
 .footer{
     background-color: rgb(44, 44, 44);
-    height: 8rem;
-    position: fixed;
+    height: 5rem;
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-bottom: 0;
+    margin-bottom: 5;
+    position: fixed;
     .Copyright{
         z-index: 100;
         color:white;
@@ -24,10 +24,13 @@
         position: absolute;
         font-size: 15px;
         margin-left: 100px;
-        margin-top: 45px;
+        margin-top: 20px;
     }
 }
 .card{
     margin-top: 10rem;
     text-align: center;
+}
+.LoginLogo{
+    width: 8%;
 }

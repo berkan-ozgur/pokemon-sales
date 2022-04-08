@@ -1,4 +1,3 @@
-import React from "react";
 import footerImage from "../assests/footerImage/pokemon-list.jpg"
 
 const Footer = () => {

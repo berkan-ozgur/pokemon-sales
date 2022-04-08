@@ -5,7 +5,7 @@ const About = () => {
     return (
         <>
             <Layout>
-                <div className="card">
+                <div className="card mt-9">
                     <Fieldset legend="About Pokemons 🦒">
                         <p>The franchise began as Pocket Monsters: Red and Green (later released outside of Japan as Pokémon Red and Blue),
                             a pair of video games for the original Game Boy handheld system that were developed by Game Freak and published by Nintendo in February 1996.
