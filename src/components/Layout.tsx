@@ -14,7 +14,6 @@ const Layout = ({ children, title = "Pokemon Sales" }: Props) => {
             <head>
                 <title>{title}</title>
             </head>
-            <h1>{title}</h1>
             <main>
                 <div>{children}</div>
             </main>
