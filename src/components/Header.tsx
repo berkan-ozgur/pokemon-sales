@@ -15,7 +15,9 @@ const Header = () => {
                 </Link>
             </div>
             <div className="button-demo">
-                <Button label="Pokemon List" className="p-button-help p-button-text" />
+                <Link to="/pokemon-list">
+                    <Button label="Pokemon List" className="p-button-help p-button-text" />
+                </Link>
                 <Link to="/about">
                     <Button label="About" className="p-button-warning p-button-text" />
                 </Link>

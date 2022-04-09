@@ -1,5 +1,3 @@
-import footerImage from "../assests/footerImage/pokemon-list.jpg"
-
 const Footer = () => {
 
     return (
@@ -9,7 +7,6 @@ const Footer = () => {
                 <p>Pokemon is a Japanese media franchise managed by The Pokemon Company,
                     a company founded by Nintendo, Game Freak and Creatures.</p>
             </ul>
-            <img src={footerImage} alt="" className="footerImage" />
         </div>
     );
 }

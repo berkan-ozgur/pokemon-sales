@@ -5,7 +5,7 @@ import { Link, useNavigate } from "react-router-dom";
 import Layout from "../components/Layout"
 import pokeballImage from "../assests/Pokeball-Login.png"
 import { useState } from "react";
-import { LoginRequest } from "../models/LoginRequest.interface";
+import { LoginRequest } from "../models/requests/LoginRequest.interface";
 import { Formik } from "formik";
 
 const Login = () => {
@@ -88,8 +88,6 @@ const Login = () => {
                             </form>
                         )}
                         </Formik>
-
-
                     </div>
                 </div>
             </div>

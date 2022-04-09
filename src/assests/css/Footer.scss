@@ -1,5 +1,5 @@
 .footer{
-    background-color: rgb(44, 44, 44);
+    background: rgba(0, 0, 0, 0.1);
     height: 5rem;
     left: 0;
     bottom: 0;
@@ -8,23 +8,21 @@
     position: fixed;
     .Copyright{
         z-index: 100;
-        color:white;
+        color:rgb(0, 0, 0);
         position: absolute;
         right: 20px;
         bottom: 0px;
         font-size: 12px;
-    }
-    .footerImage{
-        width: 100%;
-        opacity: 10%;
+        opacity: 100%;
     }
     .aboutUs{
         z-index: 100;
-        color:white;
+        color:rgb(0, 0, 0);
         position: absolute;
         font-size: 15px;
         margin-left: 100px;
         margin-top: 20px;
+        opacity: 100%;
     }
 }
 .card{
@@ -33,4 +31,15 @@
 }
 .LoginLogo{
     width: 8%;
+}
+.background-image{
+    width: 100%;
+    opacity: 12%;
+    position: absolute;
+    z-index: -1;
+}
+.PokemonNameCards{
+    margin-top: 3rem;
+    margin-left: 3rem;
+    display: inline-block;
 }

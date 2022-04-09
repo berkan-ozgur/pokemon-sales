@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
+import BackgroundImage from "../assests/footerImage/pokemon-list.jpg"
 
 type Props = {
     title?: string;
@@ -14,6 +15,9 @@ const Layout = ({ children, title = "Pokemon Sales" }: Props) => {
             <head>
                 <title>{title}</title>
             </head>
+            <body>
+                <img src={BackgroundImage} alt="" className="background-image" />
+            </body>
             <main>
                 <div>{children}</div>
             </main>
