@@ -20,7 +20,7 @@ const PokemonDetails = () => {
         <Layout>
             <Card title={`${pokeDetails?.name}`} style={{
                 width: '25em', textTransform: 'capitalize',
-                marginTop: '5rem', marginLeft: '47rem', position: 'flex'
+                margin: "10rem auto", position: 'flex'
             }}>
                 <img alt="" src={`${pokeDetails?.sprites.back_shiny}`} style={{ height: '10rem' }}></img>
                 <img alt="" src={`${pokeDetails?.sprites.front_shiny}`} style={{ height: '10rem' }}></img>
