@@ -8,17 +8,17 @@ import { getPokeDetails } from "../services/PokeService.service"
 
 const PokemonDetails = () => {
     const { id } = useParams()
-    const [pokeDetails, setPokeDetails] = React.useState<PokeDetailsResponse | null>(null);
+    // const [pokeDetails, setPokeDetails] = React.useState<PokeDetailsResponse | null>(null);
 
-    React.useEffect(() => {
-        getPokeDetails(+id!).then((response: AxiosResponse) => {
-            setPokeDetails(response.data as PokeDetailsResponse)
-        })
-    }, [id])
+    // React.useEffect(() => {
+    //     getPokeDetails(+id!).then((response: AxiosResponse) => {
+    //         setPokeDetails(response.data as PokeDetailsResponse)
+    //     })
+    // }, [id])
 
     return (
         <Layout>
-            <Card title={`${pokeDetails?.name}`} style={{
+            {/* <Card title={`${pokeDetails?.name}`} style={{
                 width: '25em', textTransform: 'capitalize',
                 margin: "10rem auto", position: 'flex'
             }}>
@@ -36,7 +36,7 @@ const PokemonDetails = () => {
                 }
 
 
-            </Card>
+            </Card> */}
         </Layout >
     )
 }

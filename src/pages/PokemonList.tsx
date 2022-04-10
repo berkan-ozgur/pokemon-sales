@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import Layout from "../components/Layout";
 import { PokeListResponse } from "../models/responses/PokeListResponse.interface";
 import { getPokeList } from "../services/PokeService.service";
-import Pokeball from "../assests/Pokeball-Welcomer.png"
+import Pokeball from "../assests/images/Pokeball-Welcomer.png"
 
 const PokemonList = () => {
 
@@ -27,7 +27,7 @@ const PokemonList = () => {
                     return (
                         <Card title={`${pokemon.name}`} style={{ width: '11em', textTransform: 'capitalize', textAlign: "center", color: "black" }}
                             key={index} className="PokemonNameCards" header={headerCard}>
-                            <Link to={`/pokemon-list/poke-details/${index + 1}`}>
+                            <Link to={`/poke-details/${index + 1}`}>
                                 <b className="m-2" style={{ color: "blue", fontSize: 15 }}>More Details →</b>
                             </Link>
                         </Card>

@@ -1,7 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import Header from "./Header";
-import BackgroundImage from "../assests/footerImage/pokemon-list.jpg"
+import BackgroundImage from "../assests/images/pokemon-list.jpg"
 
 type Props = {
     title?: string;

@@ -2,7 +2,7 @@ import React from 'react';
 import { Toolbar } from 'primereact/toolbar';
 import { Button } from 'primereact/button';
 import "../assests/css/Header.scss"
-import logo from "../assests/logo/PokemonLogo.png"
+import logo from "../assests/images/PokemonLogo.png"
 import { Link } from 'react-router-dom';
 
 

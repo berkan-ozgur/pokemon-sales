@@ -9,4 +9,4 @@ export interface PokeDetailsResponse {
             name: string;
         }
     }[];
-}
+};

@@ -1,7 +1,7 @@
 import { Formik } from "formik";
 import { InputText } from "primereact/inputtext";
 import { RegisterRequest } from "../models/requests/RegisterRequest.interface";
-import pokeballImage from "../assests/Pokeball-Login.png"
+import pokeballImage from "../assests/images/Pokeball-Login.png"
 import { useNavigate } from "react-router";
 import { Button } from "primereact/button";
 import Layout from "../components/Layout";

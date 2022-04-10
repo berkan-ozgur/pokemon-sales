@@ -3,7 +3,7 @@ import { Checkbox } from 'primereact/checkbox';
 import { InputText } from 'primereact/inputtext';
 import { Link, useNavigate } from "react-router-dom";
 import Layout from "../components/Layout"
-import pokeballImage from "../assests/Pokeball-Login.png"
+import pokeballImage from "../assests/images/Pokeball-Login.png"
 import { useState } from "react";
 import { LoginRequest } from "../models/requests/LoginRequest.interface";
 import { Formik } from "formik";

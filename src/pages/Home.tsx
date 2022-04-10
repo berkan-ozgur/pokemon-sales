@@ -2,8 +2,12 @@ import Layout from "../components/Layout"
 import { Card } from 'primereact/card';
 import { Button } from "primereact/button";
 import { Link } from "react-router-dom";
-import PokeballWelcomer from "../assests/Pokeball-Welcomer.png"
+import PokeballWelcomer from "../assests/images/Pokeball-Welcomer.png"
+import { useSelector } from "react-redux";
+import { RootState } from "../store/Store";
 const Home = () => {
+    const pokeDetails = useSelector((state: RootState) => state.pokeDetailsReducer)
+    console.log(pokeDetails)
     return (
         <Layout>
             <div>
@@ -11,6 +15,13 @@ const Home = () => {
                 <Card title="Welcome to the Pokémon Sales!" style={{
                     width: '20em', display: "inline-block", marginTop: "12rem",
                 }}>
+                    <p>
+                        {pokeDetails.map((x: any) => {
+                            return (
+                                { x }
+                            )
+                        })}
+                    </p>
                     <p className="m-0" style={{ lineHeight: '1.5' }}>This is a website that people can sell their pokemons or even trade them!
                         If you want to discover more on pokemons, you can click the button below!</p>
                     <Link to="/pokemon-list">
