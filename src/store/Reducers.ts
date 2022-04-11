@@ -4,7 +4,7 @@ import { POKEDETAILS } from "./Constants";
 
 type Actions = ReturnType<typeof pokeDetails>;
 
-export const pokeDetailsReducer = (state = [] as PokeDetailsResponse[], action: Actions) => {
+export const pokeDetailsReducer = (state = {} as PokeDetailsResponse, action: Actions) => {
     switch (action.type) {
         case POKEDETAILS: {
             return action.payload // burayla alakalı bir sıkıntı var ama çözemedim :(

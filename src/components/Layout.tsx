@@ -12,12 +12,12 @@ const Layout = ({ children, title = "Pokemon Sales" }: Props) => {
     return (
         <>
             <Header />
-            <head>
+            <div>
                 <title>{title}</title>
-            </head>
-            <body>
+            </div>
+            <div>
                 <img src={BackgroundImage} alt="" className="background-image" />
-            </body>
+            </div>
             <main>
                 <div>{children}</div>
             </main>
