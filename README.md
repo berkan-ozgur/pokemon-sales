@@ -1,46 +1,20 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Pokemon Sales
+## This is a website that people can sell their pokemons or even trade them! (For now we can just some sort of pokemons and their types using PokéApi.)
 
-## Available Scripts
+### Homepage
+![Screenshot 2022-12-19 222404](https://user-images.githubusercontent.com/64234211/208504801-c93744ca-28d7-4de5-8914-9057a5346903.png)
+
+### Pokemon List
+![Screenshot 2022-12-19 222427](https://user-images.githubusercontent.com/64234211/208504919-f7152a2a-2050-4391-a216-9e4bd6c3ec95.png)
+
+### Pokemon Detail
+![Screenshot 2022-12-19 222527](https://user-images.githubusercontent.com/64234211/208504942-a4bc37da-2a6c-499d-b4d4-103d9fe41e9c.png)
+
+### For register and login part, they are non-functional for now
 
 In the project directory, you can run:
 
 ### `yarn start`
-
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
