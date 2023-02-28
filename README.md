@@ -1,6 +1,6 @@
 
 # Pokemon Sales
-## This is a website that people can sell their pokemons or even trade them! (For now we can just some sort of pokemons and their types using PokéApi.)
+## This is a website that people can sell their pokemons or even trade them! (For now we can just see some sort of pokemons and their types using PokéApi.)
 
 ### Homepage
 ![Screenshot 2022-12-19 222404](https://user-images.githubusercontent.com/64234211/208504801-c93744ca-28d7-4de5-8914-9057a5346903.png)
